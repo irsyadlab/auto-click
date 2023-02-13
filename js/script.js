@@ -7,12 +7,16 @@ function updateInformation() {
 
 function updateTimer() {
     timer -= 1;
-    if(timer <= 0) btnClick.click();
+    if(timer <= 0) {
+        btnClick.click()
+        clearInterval(intervalFunc);
+    };
 
     updateInformation();
 }
 
-updateInformation();
-setInterval(() => {
+const intervalFunc = setInterval(() => {
     updateTimer();
 }, 1000);
+
+updateInformation();
