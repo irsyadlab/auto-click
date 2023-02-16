@@ -1,0 +1,29 @@
+{
+  "name": "auto-click",
+  "version": "1.0.0",
+  "description": "Auto click object",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irsyadlab/auto-click.git"
+  },
+  "keywords": [],
+  "author": {
+    "email": "ahmadirsyadulibad7@gmail.com",
+    "name": "irsyadulibad"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irsyadlab/auto-click/issues"
+  },
+  "homepage": "https://irsyadlab.github.io/auto-click",
+  "devDependencies": {
+    "vite": "^4.1.1"
+  }
+}
