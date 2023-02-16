@@ -1,0 +1,1 @@
+import{s as w,w as l}from"./website-6e7b985b.js";const b=document.getElementById("btn-click");function s(o,t=0,n=null){const c=t+1>=l.length?0:t+1;setTimeout(()=>{n!=null&&n.close();const u=window.open(l[t],"_blank");s(o,c,u)},n?o*1e3:0)}w(b,s);
