@@ -1,1 +1,0 @@
-import{s as e,w as n}from"./website-47557aea.js";function r(t,o){return t==0?Math.floor(Math.random()*o+0):Math.floor(Math.random()*(o-t+1))+t}const a=document.getElementById("btn-click");e(a,function(){const t=n.length;window.open(n[r(0,t-1)],"_blank").focus()});
